@@ -1,4 +1,4 @@
-# Hi, my name is Carlos Bernal
+# Hi, I am Carlos Bernal
 ## A Web Developer
 
 Check out my [GitHub](https://github.com/Solarc117)!
