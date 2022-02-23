@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
-		<title>Carlos Bernal</title>
+		<title>{{ page.title }}</title>
 	</head>
 	<body>
 		<nav>
@@ -15,10 +15,10 @@
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>I'm Carlos Bernal</h1>
-	<p>A web developer. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+        		<h1>{{ page.title }}</h1>
+            <section>
+              {{ content }}
+            </section>
 		<footer>
     		<ul>
         		<li><a href="mailto:jonathan.carlos.bernal@gmail.com">email</a></li>

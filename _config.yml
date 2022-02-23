@@ -3,3 +3,4 @@ theme: jekyll-theme-cayman
 title: Solarc117 homepage
 description: A portfolio page for all my projects!
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
