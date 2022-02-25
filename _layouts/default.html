@@ -5,26 +5,15 @@
 		<title>{{ page.title }}</title>
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="{{site.baseurl}}/">Home</a></li>
-	        	<li><a href="{{site.baseurl}}/about">About</a></li>
-        		<li><a href="{{site.baseurl}}/projects">Projects</a></li>
-        		<li><a href="{{site.baseurl}}/blog">Blog</a></li>
-    		</ul>
-		</nav>
+		{% include nav.html %}
 		<div class="container">
-    		<div class="blurb">
-        		<h1>{{ page.title }}</h1>
-            <section>
-              {{ content }}
-            </section>
-		<footer>
-    		<ul>
-        		<li><a href="mailto:jonathan.carlos.bernal@gmail.com">jonathan.carlos.bernal@gmail.com</a></li>
-        		<li><a href="https://github.com/Solarc117">github.com/Solarc117</a></li>
-            <li><a href="https://www.linkedin.com/in/carlos-jonathan-bernal-torres-07b90a1b1/"></a></li>
-          </ul>
-		</footer>
+    	<div class="blurb">
+      	<h1>{{ page.title }}</h1>
+        <section>
+          {{ content }}
+        </section>
+      </div>
+    </div>
+		{% include footer.html %}
 	</body>
 </html>
