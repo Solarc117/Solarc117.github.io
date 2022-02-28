@@ -1,0 +1,15 @@
+---
+layout: default
+title: Projects
+---
+
+<ul class="projects">
+  {% for project in site.categories.projects limit:5 %}
+  <li>
+    <span>{{ project.date | date_to_string }}</span> |
+    <a target="_blank" href="{{ project.site-url }}" title="{{ project.title }}"
+      >{{ project.title }}</a
+    >
+  </li>
+  {% endfor %}
+</ul>
