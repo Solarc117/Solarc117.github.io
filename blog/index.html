@@ -7,8 +7,7 @@ title: Blog
   {% for post in site.categories.blogs %}
   <li>
     <span>{{ post.date | date_to_string }}</span> |
-    <!-- Jekyll puts slash btw baseurl and post url automatically here. -->
-    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"
+    <a href="{{ post.url }}" title="{{ post.title }}"
       >{{ post.title }}</a
     >
   </li>

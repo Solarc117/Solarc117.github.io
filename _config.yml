@@ -1,7 +1,6 @@
 name: Carlos Bernal
 theme: jekyll-theme-cayman
 title: Solarc117 homepage
-baseurl: /carlos-bernal
 description: A portfolio page for all my projects!
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title

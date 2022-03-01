@@ -1,29 +1,23 @@
 <nav>
   <ul>
     <li>
-      <a
-        href="{{site.baseurl}}/"
-        class="{% if page.url == '/' %}current{% endif %}"
-        >Home</a
-      >
+      <a href="/" class="{% if page.url == '/' %}current{% endif %}">Home</a>
     </li>
     <li>
-      <a
-        href="{{site.baseurl}}/about"
-        class="{% if page.url == '/about/' %}current{% endif %}"
+      <a href="/about" class="{% if page.url == '/about/' %}current{% endif %}"
         >About</a
       >
     </li>
     <li>
       <a
-        href="{{site.baseurl}}/projects"
+        href="/projects"
         class="{% if page.url == '/projects/' %}current{% endif %}"
         >Projects</a
       >
     </li>
     <li>
       <a
-        href="{{site.baseurl}}/blog"
+        href="/blog"
         class="{% if page.url contains '/blog/' %}current{% endif %}"
         >Blog</a
       >
