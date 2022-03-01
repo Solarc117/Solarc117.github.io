@@ -1,0 +1,13 @@
+- title: Calculator
+  date-finished: 2021-09-08
+  url: https://fcc-calculator-react.herokuapp.com/
+  description: A small arithmetic calculator built with React.
+  image: calculator.png
+  alt: Calculator screenshot
+
+- title: fCC Backend Projects
+  date-finished: 2022-01-13
+  url: https://fcc-backend-projects.herokuapp.com/
+  description: All of the Backend Development and APIs Projects from the fCC curriculum.
+  image: fcc-backend.png
+  alt: Backend projects home screenshot

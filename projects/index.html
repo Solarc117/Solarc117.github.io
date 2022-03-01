@@ -4,12 +4,17 @@ title: Projects
 ---
 
 <ul class="projects">
-  {% for project in site.categories.projects limit:5 %}
+  {% for project in site.data.projects limit:5 %}
   <li>
-    <span>{{ project.date | date_to_string }}</span> |
-    <a target="_blank" href="{{ project.site-url }}" title="{{ project.title }}"
-      >{{ project.title }}</a
-    >
+    <a target="_blank" href="{{ project.url }}">
+      <span
+        >{{ project.date-finished | date_to_string }} | {{ project.title
+        }}</span
+      >
+      <br />
+      <img src="/img/{{ project.image }}" alt="{{ project.alt }}" />
+    </a>
+    <p class="project-description">{{ project.description }}</p>
   </li>
   {% endfor %}
 </ul>
